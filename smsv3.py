@@ -36,17 +36,17 @@ time.sleep(1)
 print ("\033[1;96m[!] Loading Cuk. . .")
 time.sleep(1)
 print ("\033[1;96mOrang sabar disayang tuhan:)")
-time.sleep(10)
+time.sleep(13)
 
 os.system("clear")
 print ("\n")
-print ("""\033[1;97mSPAM SMS UNLIMITED V3
+print ("""\033[1;97mSPAM SMS UNLIMITED VERSION 3
 \033[90m-------------------------------
-\033[1;97mCreator:\033[1;96mMR.GRIMX72
-\033[1;97mYoutube:\033[1;96mBelum Ada
-\033[1;97mContoh Nomor:\033[1;96mGunakan 62
+\033[1;97mCreator:\033[1;96m MR.GRIMX72
+\033[1;97mYoutube:\033[1;96m Belum Ada
+\033[1;97mContoh Nomor:\033[1;96m Gunakan 62
 \033[90m-------------------------------""")
-no = input("\033[1;97mNo Target : \033[1;92m")
+no = input("\033[1;97mMasukan No Target : \033[1;92m")
 for i in range(1,4):
     sleep(1)
     marco()
