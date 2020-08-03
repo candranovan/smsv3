@@ -39,6 +39,7 @@ print ("\033[1;96mOrang sabar disayang tuhan:)")
 time.sleep(10)
 
 os.system("clear")
+print ("\n")
 print ("""\033[1;97mSPAM SMS UNLIMITED V3
 \033[90m-------------------------------
 \033[1;97mCreator:\033[1;96mMR.GRIMX72
@@ -49,6 +50,5 @@ no = input("\033[1;97mNo Target : \033[1;92m")
 for i in range(1,4):
     sleep(1)
     marco()
-    marco1()
     mapclub()
 
